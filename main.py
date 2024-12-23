@@ -5,7 +5,7 @@ from model import create_tables, Publisher, Book, Stock, Shop, Sale
 from dotenv import load_dotenv
 import os.path
 
-dotenv_path = 'config.env'
+dotenv_path = 'config_example.env'
 if os.path.exists(dotenv_path):
     load_dotenv(dotenv_path)
 login = os.getenv('login')
